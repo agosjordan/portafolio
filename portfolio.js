@@ -13,4 +13,10 @@ function stickyNavbar() {
   }
 }
 
-
+function navBar(){
+  navLink.map(item => {
+    item.addEventListener("click", function(){
+      this.classList.toggle("active")  
+    })
+  });
+}
