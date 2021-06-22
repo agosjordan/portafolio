@@ -1,4 +1,3 @@
-var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 var navLink = document.getElementsByClassName("nav-link")
 
