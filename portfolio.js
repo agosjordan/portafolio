@@ -3,7 +3,7 @@ var navLink = document.getElementsByClassName("nav-link")
 var btnSubmit = document.getElementsByClassName("btnSubmit")
 
 window.onscroll = function() {stickyNavbar()};
-form()
+navBar()
 
 function stickyNavbar() {
   if (window.pageYOffset >= sticky) {
@@ -13,9 +13,14 @@ function stickyNavbar() {
   } 
 }
 
-function form() {
-  btnSubmit.addEventListener("click", function(){
-    btnSubmit.textContent = "¡ENVIADO!"
-  })
+
+function navBar(){
+  for (var i = 1; i < navLink.length; i++) {
+    navLink[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName(" active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
 }
 
