@@ -77,7 +77,7 @@ h5{
 #rowTecnologias{
     padding: 25px 0px;
 }
-#idiomas, #estudios{
+#idiomas, #estudios, #language{
     background-color: #EDEDED;
 }
 #idiomas li{
@@ -289,3 +289,36 @@ textarea.form-control{
     color: white;
 }
 /*fin formularioContc*/
+
+/*language*/
+.welcome{
+    text-align: center;
+    
+}
+#language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#language .burbuja{
+    height: 200px;
+    width: 900px;
+}
+#language .btn-rojo{
+    background-color: #E20000;
+    border: 1px solid #E20000;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    height: 37px;
+    width: 125px;
+}
+#language .btn-rojo:hover{
+    color: #E20000;
+    background-color: white;
+    text-decoration: unset;
+}
+#language .language-btns{
+    text-align: center;
+}
