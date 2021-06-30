@@ -309,10 +309,10 @@ textarea.form-control{
     background-color: #E20000;
     border: 1px solid #E20000;
     color: white;
-    font-size: 14px;
+    font-size: 26px;
     font-weight: 500;
-    height: 37px;
-    width: 125px;
+    height: 56px;
+    width: 160px;
 }
 #language .btn-rojo:hover{
     color: #E20000;
@@ -322,3 +322,4 @@ textarea.form-control{
 #language .language-btns{
     text-align: center;
 }
+
